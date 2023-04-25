@@ -28,6 +28,8 @@ def recognize_speech(audio_file):
 # Define the Streamlit app
 def app():
     st.title('Speech Emotion Recognition App')
+    st.sidebar.markdown('Connect with me on LinkedIn:')
+    st.sidebar.markdown('[My LinkedIn ID](https://www.linkedin.com/in/surajkaran/)')
     
     # Add a file uploader to let users upload the audio file
     uploaded_file = st.file_uploader('Upload an audio file', type=['wav','mp3'])
