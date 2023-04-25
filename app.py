@@ -4,7 +4,7 @@ import librosa
 import numpy as np
 
 # Load the trained model
-model = tf.keras.models.load_model('C:/Users/suraj/Downloads/speechemotionrecognition.h5')
+model = tf.keras.models.load_model('speechemotionrecognition.h5')
 
 # Define the function to recognize speech
 def recognize_speech(audio_file):
