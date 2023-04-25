@@ -1,5 +1,4 @@
-librosa==0.9.2
+librosa==0.10.0
 numpy==1.23.5
-soundfile==0.11.0
-tensorflow
-streamlit
+streamlit==1.21.0
+tensorflow==2.12.0
